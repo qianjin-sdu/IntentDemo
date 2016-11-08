@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //隐式启动，与AndroidManifest.xml文件里的action对应
 //				Intent intent=new Intent();
-//				intent.setAction("cn.itscast.xxx");
+//				intent.setAction("cn.demo.intent.xxx");
 //				startActivity(intent);
 
                 //隐式启动Android内置浏览器

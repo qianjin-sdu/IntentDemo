@@ -10,6 +10,7 @@ public class SecondActivity extends AppCompatActivity {
     private Button button=null;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Intent intent = getIntent();
         setContentView(R.layout.activity_second);
         button=(Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
